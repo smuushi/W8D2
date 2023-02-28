@@ -29,5 +29,6 @@ Array.prototype.transpose = function() {
         this.forEach((originalSubArray) => transposedInnerArray.push(originalSubArray[i]));
         transposedOuterArray.push(transposedInnerArray);
     };
-    return transposedOuterArray;
+    return transposedOuterArray; 
+    
 };
